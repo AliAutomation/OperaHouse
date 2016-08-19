@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Sydenyopera.test.TestRunWebSuite" time="0.021" tests="83" errors="8" skipped="75" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\aasgh2\Desktop\OperaHouse"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\aasgh2\Desktop\OperaHouse"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\aasgh2\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\aasgh2\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9091539666579098496.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\nodejs\;C:\Users\aasgh2\AppData\Local\Android\android-sdk/tools;C:\Users\aasgh2\AppData\Local\Android\android-sdk/\platform-tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\aasgh2\AppData\Roaming\npm;C:\Users\aasgh2\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\aasgh2"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="aasgh2"/>
+    <property name="java.class.path" value="/C:/Users/aasgh2/eclipse/java-neon2/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\aasgh2\Desktop\OperaHouse\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given user is at giftvoucher page" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0.005">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+    <system-out><![CDATA[@Checkout
+Feature: Checkout - Your Details | Member Login
+  As I already added item in my cart , I want to
+  -Verify that user able to perform Member login and place order
+  -Verify that user able to perform Guest login and place order
+  -Verify that user able to perform Social login through GooglePlus and place order
+  -Verify that user able to perform Socail Login through facebook  and place order
+  -Verify that user able to apply gift voucher at check out page
+
+  @Memberlogin
+  Scenario Outline: Verify that user able to perform Member login and place order                     &amp#27;[90m# web/CheckoutGuest.feature:20&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at  Checkout page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click on Sign-in button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser enter  username "<username>" and enter password "<password>" and click on signin button&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthen user come to payement  section&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "<cardnumber>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter expirydate in expirydate section "<date>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter security code in cvv section "<CVV>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigate to order confirmation page&amp#27;[0m
+
+    Examples: 
+Mozilla 
+https://delvmpldis-devsoh.sapient.com/content/soh/my-account/login.html
+]]></system-out>
+  </testcase>
+  <testcase name="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0.006">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+  </testcase>
+  <testcase name="When User select a giftvoucher price" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User enter toname &quot;test&quot; and enter fromename &quot;tester&quot; and provive message &quot;Goodluck&quot;" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then select send via email as delivery option" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click on addrocart button" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User navigate to cart page" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then click on continuetocheckout" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is at  Checkout page" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background: Flow till Checkoutpage                                                           &amp#27;[90m# web/CheckoutGuest.feature:10&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is at giftvoucher page&amp#27;[0m                                                          &amp#27;[90m# GiftVoucher.user_is_at_giftvoucher_page()&amp#27;[0m
+      &amp#27;[31mcucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:40)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+      Caused by: java.lang.reflect.InvocationTargetException
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+      	... 57 more
+      Caused by: java.lang.NullPointerException
+      	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+      	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+      	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+      	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+      	... 62 more
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser select a giftvoucher price&amp#27;[0m                                                       &amp#27;[90m# GiftVoucher.user_select_a_giftvoucher_price()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser enter toname "&amp#27;[0m&amp#27;[36m&amp#27;[1mtest&amp#27;[0m&amp#27;[36m" and enter fromename "&amp#27;[0m&amp#27;[36m&amp#27;[1mtester&amp#27;[0m&amp#27;[36m" and provive message "&amp#27;[0m&amp#27;[36m&amp#27;[1mGoodluck&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# GiftVoucher.user_enter_toname_and_enter_fromename_and_provive_message(String,String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mselect send via email as delivery option&amp#27;[0m                                              &amp#27;[90m# GiftVoucher.select_send_via_email_as_delivery_option()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on addrocart button&amp#27;[0m                                                              &amp#27;[90m# GiftVoucher.click_on_addrocart_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser navigate to cart page&amp#27;[0m                                                            &amp#27;[90m# GiftVoucher.user_navigate_to_cart_page()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mclick on continuetocheckout&amp#27;[0m                                                           &amp#27;[90m# GiftVoucher.click_on_continuetocheckout()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When user click on Sign-in button" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user enter  username &quot;gmalik4@sapient.com&quot; and enter password &quot;secret11&quot; and click on signin button" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And then user come to payement  section" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardnumber in cardnumber section &quot;41111111111111111&quot;" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter expirydate in expirydate section &quot;03/2020&quot;" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter security code in cvv section &quot;123&quot;" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user navigate to order confirmation page" classname="| gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is at giftvoucher page" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0.003">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+    <system-out><![CDATA[
+  @Checkout @Memberlogin
+  Scenario Outline: Verify that user able to perform Member login and place order                            &amp#27;[90m# web/CheckoutGuest.feature:36&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at  Checkout page&amp#27;[0m                                                                          &amp#27;[90m# CheckoutGuest.user_is_at_Checkout_page()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click on Sign-in button&amp#27;[0m                                                                        &amp#27;[90m# CheckoutGuest.user_click_on_Sign_in_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser enter  username "&amp#27;[0m&amp#27;[36m&amp#27;[1mgmalik4@sapient.com&amp#27;[0m&amp#27;[36m" and enter password "&amp#27;[0m&amp#27;[36m&amp#27;[1msecret11&amp#27;[0m&amp#27;[36m" and click on signin button&amp#27;[0m &amp#27;[90m# CheckoutGuest.user_enter_username_and_enter_password_and_click_on_signin_button(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthen user come to payement  section&amp#27;[0m                                                                  &amp#27;[90m# CheckoutGuest.then_user_come_to_payement_section()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "&amp#27;[0m&amp#27;[36m&amp#27;[1mJørn Utzon&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# CheckoutGuest.user_enter_cardholder_name_in_Card_holder_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "&amp#27;[0m&amp#27;[36m&amp#27;[1m41111111111111111&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                    &amp#27;[90m# CheckoutGuest.user_enter_cardnumber_in_cardnumber_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter expirydate in expirydate section "&amp#27;[0m&amp#27;[36m&amp#27;[1m03/2020&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                              &amp#27;[90m# CheckoutGuest.user_enter_expirydate_in_expirydate_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter security code in cvv section "&amp#27;[0m&amp#27;[36m&amp#27;[1m123&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                      &amp#27;[90m# CheckoutGuest.user_enter_security_code_in_cvv_section(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m                                                                        &amp#27;[90m# CheckoutGuest.user_click_on_payment_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "&amp#27;[0m&amp#27;[36m&amp#27;[1mJørn Utzon&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# CheckoutGuest.user_enter_cardholder_name_in_Card_holder_section(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m                                                                        &amp#27;[90m# CheckoutGuest.user_click_on_payment_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigate to order confirmation page&amp#27;[0m                                                            &amp#27;[90m# CheckoutGuest.user_navigate_to_order_confirmation_page()&amp#27;[0m
+
+  @Guestlogin
+  Scenario Outline: Verify that user able to perform Guest login and place order                                                            &amp#27;[90m# web/CheckoutGuest.feature:39&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at  Checkout page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click on  continue as a Guest&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter emailaddress"<emailaddress>" and user enter firstname"<firstname>" and Lastname "<lastname>" and click on signinbutton&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthen user come to payement  section&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "<cardnumber>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter expirydate in expirydate section "<date>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter security code in cvv section "<CVV>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "<cardnumber>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigate to order confirmation page&amp#27;[0m
+
+    Examples: 
+Mozilla 
+https://delvmpldis-devsoh.sapient.com/content/soh/my-account/login.html
+]]></system-out>
+  </testcase>
+  <testcase name="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0.003">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+  </testcase>
+  <testcase name="When User select a giftvoucher price" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User enter toname &quot;test&quot; and enter fromename &quot;tester&quot; and provive message &quot;Goodluck&quot;" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then select send via email as delivery option" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click on addrocart button" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User navigate to cart page" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then click on continuetocheckout" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is at  Checkout page" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background: Flow till Checkoutpage                                                           &amp#27;[90m# web/CheckoutGuest.feature:10&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is at giftvoucher page&amp#27;[0m                                                          &amp#27;[90m# GiftVoucher.user_is_at_giftvoucher_page()&amp#27;[0m
+      &amp#27;[31mcucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:40)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+      Caused by: java.lang.reflect.InvocationTargetException
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+      	... 57 more
+      Caused by: java.lang.NullPointerException
+      	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+      	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+      	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+      	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+      	... 62 more
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser select a giftvoucher price&amp#27;[0m                                                       &amp#27;[90m# GiftVoucher.user_select_a_giftvoucher_price()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser enter toname "&amp#27;[0m&amp#27;[36m&amp#27;[1mtest&amp#27;[0m&amp#27;[36m" and enter fromename "&amp#27;[0m&amp#27;[36m&amp#27;[1mtester&amp#27;[0m&amp#27;[36m" and provive message "&amp#27;[0m&amp#27;[36m&amp#27;[1mGoodluck&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# GiftVoucher.user_enter_toname_and_enter_fromename_and_provive_message(String,String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mselect send via email as delivery option&amp#27;[0m                                              &amp#27;[90m# GiftVoucher.select_send_via_email_as_delivery_option()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on addrocart button&amp#27;[0m                                                              &amp#27;[90m# GiftVoucher.click_on_addrocart_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser navigate to cart page&amp#27;[0m                                                            &amp#27;[90m# GiftVoucher.user_navigate_to_cart_page()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mclick on continuetocheckout&amp#27;[0m                                                           &amp#27;[90m# GiftVoucher.click_on_continuetocheckout()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When user click on  continue as a Guest" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter emailaddress&quot;usertester@yopmail.com&quot; and user enter firstname&quot;tester&quot; and Lastname &quot;user&quot; and click on signinbutton" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And then user come to payement  section" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardnumber in cardnumber section &quot;41111111111111111&quot;" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter expirydate in expirydate section &quot;03/2020&quot;" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter security code in cvv section &quot;123&quot;" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardnumber in cardnumber section &quot;41111111111111111&quot;" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user navigate to order confirmation page" classname="| tester | user | usertester@yopmail.com | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is at giftvoucher page" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+    <system-out><![CDATA[
+  @Checkout @Guestlogin
+  Scenario Outline: Verify that user able to perform Guest login and place order                                                         &amp#27;[90m# web/CheckoutGuest.feature:56&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at  Checkout page&amp#27;[0m                                                                                                      &amp#27;[90m# CheckoutGuest.user_is_at_Checkout_page()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click on  continue as a Guest&amp#27;[0m                                                                                              &amp#27;[90m# CheckoutGuest.user_click_on_continue_as_a_Guest()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter emailaddress"&amp#27;[0m&amp#27;[36m&amp#27;[1musertester@yopmail.com&amp#27;[0m&amp#27;[36m" and user enter firstname"&amp#27;[0m&amp#27;[36m&amp#27;[1mtester&amp#27;[0m&amp#27;[36m" and Lastname "&amp#27;[0m&amp#27;[36m&amp#27;[1muser&amp#27;[0m&amp#27;[36m" and click on signinbutton&amp#27;[0m &amp#27;[90m# CheckoutGuest.user_enter_emailaddress_and_user_enter_firstname_and_Lastname_and_click_on_signinbutton(String,String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthen user come to payement  section&amp#27;[0m                                                                                              &amp#27;[90m# CheckoutGuest.then_user_come_to_payement_section()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "&amp#27;[0m&amp#27;[36m&amp#27;[1mJørn Utzon&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                 &amp#27;[90m# CheckoutGuest.user_enter_cardholder_name_in_Card_holder_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "&amp#27;[0m&amp#27;[36m&amp#27;[1m41111111111111111&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                &amp#27;[90m# CheckoutGuest.user_enter_cardnumber_in_cardnumber_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter expirydate in expirydate section "&amp#27;[0m&amp#27;[36m&amp#27;[1m03/2020&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                          &amp#27;[90m# CheckoutGuest.user_enter_expirydate_in_expirydate_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter security code in cvv section "&amp#27;[0m&amp#27;[36m&amp#27;[1m123&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                  &amp#27;[90m# CheckoutGuest.user_enter_security_code_in_cvv_section(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m                                                                                                    &amp#27;[90m# CheckoutGuest.user_click_on_payment_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "&amp#27;[0m&amp#27;[36m&amp#27;[1mJørn Utzon&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                 &amp#27;[90m# CheckoutGuest.user_enter_cardholder_name_in_Card_holder_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "&amp#27;[0m&amp#27;[36m&amp#27;[1m41111111111111111&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                &amp#27;[90m# CheckoutGuest.user_enter_cardnumber_in_cardnumber_section(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m                                                                                                    &amp#27;[90m# CheckoutGuest.user_click_on_payment_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigate to order confirmation page&amp#27;[0m                                                                                        &amp#27;[90m# CheckoutGuest.user_navigate_to_order_confirmation_page()&amp#27;[0m
+
+  @googlepluslogin
+  Scenario Outline: Verify that user able to perform Social login through GooglePlus and place order            &amp#27;[90m# web/CheckoutGuest.feature:59&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at  Checkout page&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser click on Gplus signin user enter gmailadress"<Gmail>" and enter googlepassword "<Gmailpassword>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthen user come to payement  section&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "<cardnumber>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter expirydate in expirydate section "<date>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter security code in cvv section "<CVV>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigate to order confirmation page&amp#27;[0m
+
+    Examples: 
+Mozilla 
+https://delvmpldis-devsoh.sapient.com/content/soh/my-account/login.html
+]]></system-out>
+  </testcase>
+  <testcase name="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+  </testcase>
+  <testcase name="When User select a giftvoucher price" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User enter toname &quot;test&quot; and enter fromename &quot;tester&quot; and provive message &quot;Goodluck&quot;" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then select send via email as delivery option" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click on addrocart button" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User navigate to cart page" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then click on continuetocheckout" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is at  Checkout page" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background: Flow till Checkoutpage                                                           &amp#27;[90m# web/CheckoutGuest.feature:10&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is at giftvoucher page&amp#27;[0m                                                          &amp#27;[90m# GiftVoucher.user_is_at_giftvoucher_page()&amp#27;[0m
+      &amp#27;[31mcucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:40)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+      Caused by: java.lang.reflect.InvocationTargetException
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+      	... 57 more
+      Caused by: java.lang.NullPointerException
+      	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+      	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+      	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+      	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+      	... 62 more
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser select a giftvoucher price&amp#27;[0m                                                       &amp#27;[90m# GiftVoucher.user_select_a_giftvoucher_price()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser enter toname "&amp#27;[0m&amp#27;[36m&amp#27;[1mtest&amp#27;[0m&amp#27;[36m" and enter fromename "&amp#27;[0m&amp#27;[36m&amp#27;[1mtester&amp#27;[0m&amp#27;[36m" and provive message "&amp#27;[0m&amp#27;[36m&amp#27;[1mGoodluck&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# GiftVoucher.user_enter_toname_and_enter_fromename_and_provive_message(String,String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mselect send via email as delivery option&amp#27;[0m                                              &amp#27;[90m# GiftVoucher.select_send_via_email_as_delivery_option()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on addrocart button&amp#27;[0m                                                              &amp#27;[90m# GiftVoucher.click_on_addrocart_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser navigate to cart page&amp#27;[0m                                                            &amp#27;[90m# GiftVoucher.user_navigate_to_cart_page()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mclick on continuetocheckout&amp#27;[0m                                                           &amp#27;[90m# GiftVoucher.click_on_continuetocheckout()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Given user click on Gplus signin user enter gmailadress&quot;sohtest911@gmail.com&quot; and enter googlepassword &quot;Sapient123&quot;" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And then user come to payement  section" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardnumber in cardnumber section &quot;41111111111111111&quot;" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter expirydate in expirydate section &quot;03/2020&quot;" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter security code in cvv section &quot;123&quot;" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user navigate to order confirmation page" classname="| sohtest911@gmail.com | Sapient123 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is at giftvoucher page" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+    <system-out><![CDATA[
+  @googlepluslogin @Checkout
+  Scenario Outline: Verify that user able to perform Social login through GooglePlus and place order                    &amp#27;[90m# web/CheckoutGuest.feature:74&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at  Checkout page&amp#27;[0m                                                                                     &amp#27;[90m# CheckoutGuest.user_is_at_Checkout_page()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser click on Gplus signin user enter gmailadress"&amp#27;[0m&amp#27;[36m&amp#27;[1msohtest911@gmail.com&amp#27;[0m&amp#27;[36m" and enter googlepassword "&amp#27;[0m&amp#27;[36m&amp#27;[1mSapient123&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# CheckoutGuest.user_click_on_Gplus_signin_user_enter_gmailadress_and_enter_googlepassword(String,String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthen user come to payement  section&amp#27;[0m                                                                             &amp#27;[90m# CheckoutGuest.then_user_come_to_payement_section()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "&amp#27;[0m&amp#27;[36m&amp#27;[1mJørn Utzon&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                &amp#27;[90m# CheckoutGuest.user_enter_cardholder_name_in_Card_holder_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "&amp#27;[0m&amp#27;[36m&amp#27;[1m41111111111111111&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                               &amp#27;[90m# CheckoutGuest.user_enter_cardnumber_in_cardnumber_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter expirydate in expirydate section "&amp#27;[0m&amp#27;[36m&amp#27;[1m03/2020&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                         &amp#27;[90m# CheckoutGuest.user_enter_expirydate_in_expirydate_section(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter security code in cvv section "&amp#27;[0m&amp#27;[36m&amp#27;[1m123&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                 &amp#27;[90m# CheckoutGuest.user_enter_security_code_in_cvv_section(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m                                                                                   &amp#27;[90m# CheckoutGuest.user_click_on_payment_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "&amp#27;[0m&amp#27;[36m&amp#27;[1mJørn Utzon&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                &amp#27;[90m# CheckoutGuest.user_enter_cardholder_name_in_Card_holder_section(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m                                                                                   &amp#27;[90m# CheckoutGuest.user_click_on_payment_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigate to order confirmation page&amp#27;[0m                                                                       &amp#27;[90m# CheckoutGuest.user_navigate_to_order_confirmation_page()&amp#27;[0m
+
+  # @facebooklogin
+  #Scenario Outline: Verify that user able to perform Socail Login through facebook  and place order
+  # Given user is at  Checkout page
+  # Given user enter facebookID"<FacebookID>" , enter password"<password>" and click on signin button
+  # And then user come to payement  section
+  # Given user enter cardholder name in Card holder section "<cardHoldername>"
+  # Given user enter cardnumber in cardnumber section "<cardnumber>"
+  # Given user enter expirydate in expirydate section "<date>"
+  # Given user enter security code in cvv section "<CVV>"
+  # Then user click on payment button
+  # Given user enter cardholder name in Card holder section "<cardHoldername>"
+  # Then user click on payment button
+  #Then user navigate to order confirmation page
+  # Examples:
+  #  | FacebookID           | password   | cardHoldername | cardnumber        | date    | CVV |
+  #  | sohtest911@gmail.com | Sapient123 | Jørn Utzon     | 41111111111111111 | 03/2020 | 123 |
+  @ApplyGiftVoucher
+  Scenario Outline: Verify that user able to apply gift voucher at check out page                     &amp#27;[90m# web/CheckoutGuest.feature:95&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is at  Checkout page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click on add voucher&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser enter giftvouchercode"<GiftVoucher>" and press submit button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdue amount should be remaing of giftvoucher&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser click on Sign-in button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser enter  username "<username>" and enter password "<password>" and click on signin button&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthen user come to payement  section&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardnumber in cardnumber section "<cardnumber>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter expirydate in expirydate section "<date>"&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter security code in cvv section "<CVV>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser enter cardholder name in Card holder section "<cardHoldername>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser click on payment button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser navigate to order confirmation page&amp#27;[0m
+
+    Examples: 
+Mozilla 
+https://delvmpldis-devsoh.sapient.com/content/soh/my-account/login.html
+]]></system-out>
+  </testcase>
+  <testcase name="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0.004">
+    <error message="Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]></error>
+  </testcase>
+  <testcase name="When User select a giftvoucher price" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User enter toname &quot;test&quot; and enter fromename &quot;tester&quot; and provive message &quot;Goodluck&quot;" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then select send via email as delivery option" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click on addrocart button" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User navigate to cart page" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then click on continuetocheckout" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user is at  Checkout page" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background: Flow till Checkoutpage                                                           &amp#27;[90m# web/CheckoutGuest.feature:10&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser is at giftvoucher page&amp#27;[0m                                                          &amp#27;[90m# GiftVoucher.user_is_at_giftvoucher_page()&amp#27;[0m
+      &amp#27;[31mcucumber.runtime.CucumberException: Failed to instantiate class com.Sydenyopera.test.step_defination.GiftVoucher
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:40)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:26)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:62)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+      Caused by: java.lang.reflect.InvocationTargetException
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:34)
+      	... 57 more
+      Caused by: java.lang.NullPointerException
+      	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+      	at com.SydenyOpera.core.Actiondriver.<init>(Actiondriver.java:44)
+      	at com.SydenyOpera.core.Initialize.<init>(Initialize.java:42)
+      	at com.Sydenyopera.test.step_defination.GiftVoucher.<init>(GiftVoucher.java:9)
+      	... 62 more
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser select a giftvoucher price&amp#27;[0m                                                       &amp#27;[90m# GiftVoucher.user_select_a_giftvoucher_price()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser enter toname "&amp#27;[0m&amp#27;[36m&amp#27;[1mtest&amp#27;[0m&amp#27;[36m" and enter fromename "&amp#27;[0m&amp#27;[36m&amp#27;[1mtester&amp#27;[0m&amp#27;[36m" and provive message "&amp#27;[0m&amp#27;[36m&amp#27;[1mGoodluck&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# GiftVoucher.user_enter_toname_and_enter_fromename_and_provive_message(String,String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mselect send via email as delivery option&amp#27;[0m                                              &amp#27;[90m# GiftVoucher.select_send_via_email_as_delivery_option()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on addrocart button&amp#27;[0m                                                              &amp#27;[90m# GiftVoucher.click_on_addrocart_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser navigate to cart page&amp#27;[0m                                                            &amp#27;[90m# GiftVoucher.user_navigate_to_cart_page()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mclick on continuetocheckout&amp#27;[0m                                                           &amp#27;[90m# GiftVoucher.click_on_continuetocheckout()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When user click on add voucher" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User enter giftvouchercode&quot;AFB2-6206558&quot; and press submit button" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then due amount should be remaing of giftvoucher" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user click on Sign-in button" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user enter  username &quot;gmalik4@sapient.com&quot; and enter password &quot;secret11&quot; and click on signin button" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And then user come to payement  section" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardnumber in cardnumber section &quot;41111111111111111&quot;" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter expirydate in expirydate section &quot;03/2020&quot;" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter security code in cvv section &quot;123&quot;" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user enter cardholder name in Card holder section &quot;Jørn Utzon&quot;" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user click on payment button" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user navigate to order confirmation page" classname="| AFB2-6206558 | gmalik4@sapient.com | secret11 | Jørn Utzon | 41111111111111111 | 03/2020 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
