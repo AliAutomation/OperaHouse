@@ -16,6 +16,12 @@ public class Tourspagefunctions extends TourspageElement {
 
 	}
 
+	public Tourspagefunctions.dateandtime DateandTime = new dateandtime();
+	public Tourspagefunctions.selectseat Selectseat = new selectseat();
+	public Tourspagefunctions.addtocart Addtocart = new addtocart();
+	public Tourspagefunctions.toursPage Tourspage = new toursPage();
+	public Tourspagefunctions.Tourpage Tourspages = new Tourpage() ;
+	
 	TourspageElement.calenderMonth month = PageFactory.initElements(driver, TourspageElement.calenderMonth.class);
 	TourspageElement.date Date = PageFactory.initElements(driver, TourspageElement.date.class);
 	TourspageElement.time Time = PageFactory.initElements(driver, TourspageElement.time.class);
@@ -23,10 +29,32 @@ public class Tourspagefunctions extends TourspageElement {
 	TourspageElement.toursoption Toursoption = PageFactory.initElements(driver, TourspageElement.toursoption.class);
 
 	
+	public class Tourpage {
+		
+		public void verifyifallelementsarepresent()
+		{
+			try 
+			{
+				month.toursheading.isDisplayed();
+				waitForElementToBeVisible(month.calender , 100 ) ;
+				
+			} catch (Exception e)
+			{
+				System.out.println("Main components are not present");
+			}
+		
+		}	
+		
+	}
+	
+	
+	
+	
 	public class dateandtime {
 		
 	public void verifythatuserabletoselectdate(String Month, String date) throws InterruptedException {
 
+		
 		String mName = month.monthname.getText();
 		if (mName.equals(Month)) {
 			List<WebElement> dates = Date.alldates;

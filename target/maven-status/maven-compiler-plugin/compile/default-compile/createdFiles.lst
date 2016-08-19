@@ -35,7 +35,6 @@ com\SydenyOpera\header\SydenyOperaHeaderFunctions$login.class
 com\SydenyOpera\page\elements\TourspageElement$toursoption.class
 com\SydenyOpera\page\functions\Tourspagefunctions$selectseat.class
 com\SydenyOpera\page\functions\Checkoutpagewithoutlogin$FAcebook.class
-com\OperaHouse\App.class
 com\SydenyOpera\page\functions\Checkoutpagewithoutlogin$GuestLogin.class
 com\SydenyOpera\footer\SydenyoperaFooterElements.class
 com\SydenyOpera\page\functions\Checkoutpagewithoutlogin$PaymentOption$VoucherReedm.class

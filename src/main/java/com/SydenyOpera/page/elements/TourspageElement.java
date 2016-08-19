@@ -15,7 +15,8 @@ public class TourspageElement extends Actiondriver {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static class calenderMonth {
+	public static class calenderMonth 
+	{
 		@FindBy(xpath = "(//*[@class='month-nav']/button)[1]")
 		public WebElement backbutton;
 
@@ -24,6 +25,13 @@ public class TourspageElement extends Actiondriver {
 
 		@FindBy(xpath = ".//*[@class='month-name']")
 		public WebElement monthname;
+		
+		
+		@FindBy(xpath=".//*[@id='soh-page']/div/main/header/div[2]/div/h1/span")
+		public WebElement toursheading;
+		
+		@FindBy(xpath=".//*[@id='soh-page']/div/main/div")
+		public WebElement calender;
 
 	}
 
