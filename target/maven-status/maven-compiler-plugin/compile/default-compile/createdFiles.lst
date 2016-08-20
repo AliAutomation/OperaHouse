@@ -42,6 +42,7 @@ com\SydenyOpera\page\elements\TourspageElement$time.class
 com\SydenyOpera\page\functions\OrderconfirmationPagefunctions$orderConfirm.class
 com\SydenyOpera\page\functions\Cartpagewithoutsessionfunctions$Donation.class
 com\SydenyOpera\core\OpenandCloseDriver.class
+com\SydenyOpera\page\functions\Tourspagefunctions$Tourpage.class
 com\SydenyOpera\page\elements\CheckoutpagewithLogin$paymentdetails.class
 com\SydenyOpera\header\SydenyOperaHeaderFunctions$logo.class
 com\SydenyOpera\page\functions\LoginPageFunctions.class

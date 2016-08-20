@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith (Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resourses/features", tags ={"@Tag"} ,
+		features = "src/test/resourses/features", tags ={"@Bookingtours"} ,
     glue = "com.Sydenyopera.test.step_defination",
       plugin = { 
         "pretty",

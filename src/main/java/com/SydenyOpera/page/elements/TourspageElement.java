@@ -5,6 +5,7 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 
 import com.SydenyOpera.core.Actiondriver;
 
@@ -42,7 +43,8 @@ public class TourspageElement extends Actiondriver {
 	}
 
 	public static class time {
-		@FindBy(xpath = ".//*[@class='performance']/span)[1]")
+		@FindBy(how=How.CSS,using=".performance:nth-child(2)")
+	//	@FindBy(xpath = ".//*[@class='performance']/span)[1]")
 		public WebElement Firsttime;
 
 		@FindBy(xpath = ".//*[@class='btn btn-marker btn-marker-left']")

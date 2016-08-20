@@ -36,7 +36,7 @@ public class Tourspagefunctions extends TourspageElement {
 			try 
 			{
 				month.toursheading.isDisplayed();
-				waitForElementToBeVisible(month.calender , 100 ) ;
+				//waitForElementToBeVisible(month.calender , 100 ) ;
 				
 			} catch (Exception e)
 			{
@@ -47,9 +47,6 @@ public class Tourspagefunctions extends TourspageElement {
 		
 	}
 	
-	
-	
-	
 	public class dateandtime {
 		
 	public void verifythatuserabletoselectdate(String Month, String date) throws InterruptedException {
@@ -57,48 +54,47 @@ public class Tourspagefunctions extends TourspageElement {
 		
 		String mName = month.monthname.getText();
 		if (mName.equals(Month)) {
+		
 			List<WebElement> dates = Date.alldates;
 
-			for (WebElement Daates : dates) {
-				String Datess = Daates.getText();
-
-				if (Datess.equals(date)) {
-					Daates.click();
-					Thread.sleep(100);
-					waitForElementToBeVisible(Time.Firsttime, 100);
+			for (WebElement Selectdate : dates) {
+				String Dates=Selectdate.getText() ;	
+				if (Dates.equalsIgnoreCase(date)) 
+				{
+					Selectdate.click();
+					System.err.println(Dates);
+					 Thread.sleep(100);
+					String timeprice = Time.Firsttime.getText();
 					javaClick(Time.Firsttime);
+					System.out.println(timeprice);
 				}
 			}
 
-		} else
+		}
+	else
 		{
-			
+			System.out.println("the month is not that great");
 			
 		}
 
 	}
 	}
 	
-	public class selectseat{
-		
-	
-	 public void verifythatuserabletoselectatickit()
-	 {
-		 try {
-			  if(Toursoption.adultadd.isDisplayed())
-			      Toursoption.adultadd.click();
-			  else if (Toursoption.childadd.isDisplayed())
-			  {
-				  Toursoption.childadd.click();
-			  }
-		 }
-		 catch (Exception e)
-		 {
-			System.out.println("user not able to  select a seat"); 
-		 }
-	 }
-	 
-	}
+		public class selectseat {
+
+			public void verifythatuserabletoselectatickit() {
+				try {
+					if (Toursoption.adultadd.isDisplayed())
+						Toursoption.adultadd.click();
+					else if (Toursoption.childadd.isDisplayed()) {
+						Toursoption.childadd.click();
+					}
+				} catch (Exception e) {
+					System.out.println("user not able to  select a seat");
+				}
+			}
+
+		}
 	
 	public class addtocart {
 		
@@ -122,7 +118,7 @@ public class Tourspagefunctions extends TourspageElement {
 		{
 			try {
 				  Tours.tourtitile.isDisplayed();
-				  Tours.touroptions.isDisplayed();
+				 Tours.touroptions.isDisplayed();
 				  Tours.addpromo.isDisplayed();
 				  Tours.showcalendar.isDisplayed();
 				  Tours.showfilter.isDisplayed();
@@ -151,5 +147,10 @@ public class Tourspagefunctions extends TourspageElement {
 			}
 		}
 	}
-	
 }
+
+	
+	
+	
+
+

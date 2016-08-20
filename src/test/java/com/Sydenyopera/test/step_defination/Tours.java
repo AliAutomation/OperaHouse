@@ -4,6 +4,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import com.SydenyOpera.core.Initialize;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
@@ -34,12 +35,14 @@ public class Tours extends Initialize
 	public void user_navigate_to_tours_and_experiences_page()  
 	{
 	   Tpf.Tourspage.verifythataddfieldsarepresent();
+	  // throw new PendingException();
 	}
 
 	@Then("^user select tickets from tours list$")
 	public void user_select_tickets_from_tours_list() 
 	{
 		 Tpf.Selectseat.verifythatuserabletoselectatickit();
+		//throw new PendingException();
 	}
 
 	@Then("^user click on add to cart$")
@@ -47,6 +50,7 @@ public class Tours extends Initialize
 	{
 	    
 	  Tpf.Addtocart.verifythatuserableaddticketstocart();
+	 // throw new PendingException();
 	}
 
 
