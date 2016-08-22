@@ -39,7 +39,7 @@ public class OpenandCloseDriver {
 
 				CONFIG = new Properties();
 				FileInputStream fs = new FileInputStream(
-			   System.getProperty("user.dir") + "\\src\\main\\resourses\\Profile\\UATConfig.properties");
+			   System.getProperty("user.dir") + "\\src\\main\\resourses\\Profile\\Config.properties");
 				CONFIG.load(fs);
 
 			} catch (Exception e) 
